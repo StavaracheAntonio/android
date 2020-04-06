@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/item1"
+        android:title="adauga in cos"
+        />
+    <item android:id="@+id/item2"
+        android:title="dialog"
+        />
+    <item android:id="@+id/preferences"
+        android:title="preferences"
+        />
+
+    <item android:id="@+id/impressions"
+        android:title="notes"
+        />
+
+    <item android:id="@+id/sensors"
+        android:title="sensors"
+        />
+    <item android:id="@+id/gps_location"
+        android:title="GPS Location"
+        />
+</menu>

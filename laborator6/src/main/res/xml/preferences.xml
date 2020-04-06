@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="Sync Information">
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="text color"
+            android:title="set text color"
+
+            />
+        <ListPreference
+            android:defaultValue="#ffff0000"
+            android:entries="@array/textcolor"
+            android:entryValues="@array/textcolorvalues"
+            android:key="textView"
+            android:title="textView"
+            android:dependency="text color"
+            android:summary="set text color"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="info">
+
+        <EditTextPreference
+            android:defaultValue=" "
+            android:key="nickname"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:dialogTitle="Enter nickname"
+            android:dialogMessage="Enter nickname"
+            android:inputType="text"
+            android:title="nickname" />
+    </PreferenceCategory>
+</PreferenceScreen>
